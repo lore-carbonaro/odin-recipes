@@ -1,0 +1,35 @@
+.heading {
+  font-family: Tahoma, sans-serif;
+}
+
+#ingredients-heading,
+#steps-heading {
+  font-weight: 800;
+  color: white;
+}
+
+#ingredients-heading {
+  background-color: red;
+}
+
+#steps-heading {
+  background-color: green;
+}
+
+.subject {
+  height: 500px;
+  width: auto;
+}
+
+.list {
+  font-family: "Trebuchet MS", sans-serif;
+}
+
+#ingredients-list {
+  color: blueviolet;
+}
+
+#steps-list {
+  color: aqua;
+  background-color: black;
+}
