@@ -1,11 +1,16 @@
 .heading {
   font-family: Tahoma, sans-serif;
+  box-sizing: border-box;
+  width: fit-content;
+  padding: 5px;
+  margin: auto;
 }
 
 #ingredients-heading,
 #steps-heading {
   font-weight: 800;
   color: white;
+
 }
 
 #ingredients-heading {
@@ -17,19 +22,37 @@
 }
 
 .subject {
+  display: block;
   height: 500px;
   width: auto;
+  margin: auto;
 }
 
 .list {
   font-family: "Trebuchet MS", sans-serif;
+  box-sizing: border-box;
+  border-bottom: 3px solid;
+  border-left: 3px solid;
+  padding: 5px 20px;
 }
 
 #ingredients-list {
   color: blueviolet;
+
 }
 
 #steps-list {
-  color: aqua;
-  background-color: black;
+  color: rgb(255, 115, 0);
+  
+}
+
+.recipes {
+  border: 8px solid blue;
+  box-sizing: border-box;
+  display: inline-block;
+  margin: 8px 16px;
+  padding-left: 20px;
+  padding-right: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
