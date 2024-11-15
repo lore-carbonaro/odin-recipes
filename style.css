@@ -1,0 +1,41 @@
+* {
+    font-family: Verdana, "Times New Roman", serif;
+}
+
+a {
+    text-decoration: none;
+    color: darkblue;
+}
+
+#index-list {
+    border-style: solid;
+    border-color: darkred;
+}
+
+h1,
+h2 {
+    color: rgb(32, 32, 32);
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 48px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    text-align: right;
+}
+
+ol,
+ul {
+    color: darkred;
+}
+
+img {
+    width: 500px;
+    border-style: double;
+}
